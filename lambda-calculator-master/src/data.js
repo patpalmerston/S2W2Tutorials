@@ -32,3 +32,4 @@ const operators = [
 const specials = ['C', 'x/-', '%'];
 
 export { numbers, operators, specials };
+// why did removing default allow them to all be exported and imported as objects with brackets on both ends?
