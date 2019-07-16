@@ -10,7 +10,7 @@ import { numbers } from '../../../data';
 const Numbers = () => {
 	// STEP 2 - add the imported data to state
 	const [numbersState, setNumbersState] = useState(numbers);
-	console.log({ numbersState });
+	console.log('numbers', { numbersState });
 	return (
 		<div>
 			{/* STEP 3 - Use .map() to iterate over your array data and return a button
