@@ -14,3 +14,5 @@ const Numbers = () => {
     </div>
   );
 };
+
+export default Numbers;
