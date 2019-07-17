@@ -32,6 +32,7 @@ function App() {
 
       {nasa.media_type === 'video' ? <Video nasaVid={nasa.url} /> : <Image nasaPic={nasa.url}/>
       }
+      
       <Profile info={nasa.explanation} />
     </div>
   );
