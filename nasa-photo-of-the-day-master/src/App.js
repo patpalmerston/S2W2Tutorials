@@ -25,7 +25,7 @@ function App() {
     <div className="App">
       
       <Header 
-        author={nasa.copyright} d
+        author={nasa.copyright} 
         date={nasa.date} 
         title={nasa.title}
       />

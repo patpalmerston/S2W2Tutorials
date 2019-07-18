@@ -1,10 +1,10 @@
 import React from 'react';
 import './Profile.css';
 
-function Profile({info}) {
+function Profile(banana) {
 	return (
     <div className="info" >
-      <h6>{info}</h6>
+      <h6>{banana.info}</h6>
     </div>
   );
 }
