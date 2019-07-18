@@ -6,7 +6,7 @@ import OperatorButton from './OperatorButton';
 //Import your array data to from the provided data file
 import { operators } from '../../../data';
 
-const Operators = () => {
+const Operators = ({addOperator}) => {
 	// STEP 2 - add the imported data to state
 	const [operatorsState, setOperatorsState] = useState(operators);
 	console.log('operatorsState', operatorsState);
@@ -19,6 +19,7 @@ const Operators = () => {
 				<OperatorButton
 					char={operator.char}
 					value={operator.value}
+					addOperator={addOperator}
 					key={index}
 				/>
 			))}

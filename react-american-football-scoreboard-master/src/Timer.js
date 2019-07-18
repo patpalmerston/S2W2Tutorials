@@ -8,7 +8,7 @@ function Timer(props) {
   useEffect(() => {
     setInterval(() => {
       setTime((newTime) => {
-        console.log('time', time, 'newtime', newTime)
+        // console.log('time', time, 'newtime', newTime)
         return newTime -1
       });
     }, 1000)
