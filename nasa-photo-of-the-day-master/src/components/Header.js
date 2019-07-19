@@ -1,11 +1,22 @@
 import React from 'react';
+// import styled from 'styled-components'
 
-function Header({author, date, title}) {
+
+// const TitleDiv = styled.div`
+//   color: purple;
+//   background-color: pink;
+
+// `;
+
+
+function Header(props) {
 	return (
     <div>
-    <h1>{title}</h1>
-    <h3>{author}</h3>
-    <h4>{date}</h4>
+      
+    <h1>{props.title}</h1>
+    
+    <h3>{props.author}</h3>
+    <h4>{props.date}</h4>
     </div>
   );
 }

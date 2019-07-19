@@ -14,15 +14,15 @@ function App() {
 	const [displayValue, setDisplayValue] = useState('');
 	const addNumber = (number) => {
 		setDisplayValue(displayValue => displayValue + number)
-	}
+	};
 	const addOperator = (operator) => {
 		if (operator === '=') {
 			setDisplayValue(displayValue => eval(displayValue))
 		} else {
 			setDisplayValue(displayValue => displayValue + ' ' + operator + ' ')
 		}
-		
-	}
+	};
+	
 	return (
 		<div className='container'>
 			<Logo />
